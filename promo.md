@@ -53,13 +53,24 @@ PySide6 is LGPL-3.0, so Session 3 needs to ship its notices.
 BG vs Overlay Sifter
 
 ### Subtitle
+Main:
+Easy and fast way to sift through backgrounds against a UI overlay.
 
+Alt:
 Flip overlays over a folder of backgrounds, see what works, and sort the rest out with one key.
 
 ### Long description
 
 ```markdown
-# Which backgrounds actually work behind your UI?
+# BG vs Overlay Sifter
+
+This is a windows program that helps you quickly check through and reject backgrounds against overlays you've prepared. 
+
+Lets say you're making a game and you don't know how a UI/HUD would look like against a particular background/screenshot/etc and you have a hundred or more BGs to see which one works or sucks, this program lets you sift through them at turbo speed and press a button to reject/favorite the ones you want into a different folder. 
+
+Very useful if you're trying to nail an artstyle and don't want to painstakingly compile endless amounts of BG vs UI images by hand. This program can save you a lot of time and effort.
+
+## Which backgrounds actually work behind your UI?
 
 You have a folder of backgrounds. You have a HUD, a menu or a title. Normally you find out which ones go together by toggling layers in an image editor, one at a time.
 
@@ -101,13 +112,14 @@ Later launches go straight back to where you were, with the panel out of the way
 
 ## What it deliberately does not do
 
-No layouts, no exporting, no projects to set up. Prepare your overlays elsewhere. This program is for the part where you decide.
+No layout making, no exporting, no projects to set up. Prepare your overlays elsewhere. This program is for the part where you decide.
 
 ## Requirements
 
 Windows 10 or 11. Nothing to install: unzip and run.
 
-Free to download, and pay what you want if it helps you. MIT licensed. [ADD THE GITHUB LINK ONCE THE REPO EXISTS, OR CUT THIS LINE]
+Free to download, and pay what you want if it helps you. MIT licensed. 
+Source: https://github.com/ReactorcoreGames/BG-vs-Overlay-Sifter
 
 ## See it in action
 
