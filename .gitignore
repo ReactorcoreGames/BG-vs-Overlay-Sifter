@@ -1,0 +1,31 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.claude/
+
+# Build output. build_release.spec is the recipe, so it stays.
+build/
+dist/
+*.spec
+!build_release.spec
+
+# The trailer rebuilds from the music and make_trailer.py.
+trailer/frames/
+trailer/*.mp4
+
+# History, kept locally and never published.
+old wip/
+old v2/
+
+# Test images are internal only. The tests skip without them.
+docs/testing BGs/
+docs/testing UIs/
+
+# Per-machine runtime state.
+config.json
+config.tmp
+
+# Windows folder clutter.
+Thumbs.db
+desktop.ini
